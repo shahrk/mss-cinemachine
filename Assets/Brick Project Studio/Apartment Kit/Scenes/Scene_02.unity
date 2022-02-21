@@ -913,6 +913,8 @@ PlayableDirector:
     value: {fileID: 1292031860}
   - key: {fileID: 3352336715935836651, guid: cb90f0775c71443a3af9d814472a14f3, type: 2}
     value: {fileID: 88361511}
+  - key: {fileID: -388476238940504407, guid: cb90f0775c71443a3af9d814472a14f3, type: 2}
+    value: {fileID: 1743931403}
   m_ExposedReferences:
     m_References:
     - 1779bd37226324df288a516bbcfd9ba8: {fileID: 1743931401}
@@ -1197,6 +1199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1743931402}
   - component: {fileID: 1743931401}
+  - component: {fileID: 1743931403}
+  - component: {fileID: 1743931404}
   m_Layer: 0
   m_Name: treadmillVCam2
   m_TagString: Untagged
@@ -1258,6 +1262,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1743931403
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743931400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1743931404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743931400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e62c82b3be64042ac529dee964cc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowImage: 1
+  m_Image: {fileID: 0}
+  m_Aspect: 0
+  m_Alpha: 1
+  m_Center: {x: 0, y: 0}
+  m_Rotation: {x: 0, y: 0, z: 0}
+  m_Scale: {x: 1, y: 1}
+  m_SyncScale: 1
+  m_MuteCamera: 0
+  m_SplitView: 0
+  m_RenderMode: 0
+  m_SortingOrder: 0
+  m_PlaneDistance: 100
 --- !u!1 &1803688808
 GameObject:
   m_ObjectHideFlags: 0
