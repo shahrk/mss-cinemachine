@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animation.anim.anim
+  m_Name: point_light.anim.anim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
