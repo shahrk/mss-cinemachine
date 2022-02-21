@@ -190,6 +190,8 @@ GameObject:
   m_Component:
   - component: {fileID: 88361509}
   - component: {fileID: 88361508}
+  - component: {fileID: 88361511}
+  - component: {fileID: 88361510}
   m_Layer: 0
   m_Name: treadMillVCam1
   m_TagString: Untagged
@@ -251,6 +253,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -0.122, y: 82.494, z: -0.606}
+--- !u!114 &88361510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88361507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e62c82b3be64042ac529dee964cc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowImage: 1
+  m_Image: {fileID: 0}
+  m_Aspect: 0
+  m_Alpha: 0
+  m_Center: {x: 0, y: 0}
+  m_Rotation: {x: 0, y: 0, z: 0}
+  m_Scale: {x: 1, y: 1}
+  m_SyncScale: 1
+  m_MuteCamera: 0
+  m_SplitView: 0
+  m_RenderMode: 0
+  m_SortingOrder: 0
+  m_PlaneDistance: 100
+--- !u!95 &88361511
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88361507}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &152191561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -864,11 +911,14 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 37491518036684801, guid: cb90f0775c71443a3af9d814472a14f3, type: 2}
     value: {fileID: 1292031860}
+  - key: {fileID: 3352336715935836651, guid: cb90f0775c71443a3af9d814472a14f3, type: 2}
+    value: {fileID: 88361511}
   m_ExposedReferences:
     m_References:
     - 54ac988ebae7e429bb1240ec1c76168d: {fileID: 88361508}
     - 464ac42153e374cd3b9efd019ce514bd: {fileID: 1743931401}
     - 21d27a3519beb4bbf952d09c2e300b61: {fileID: 266032016}
+    - 7f5f4fe11813142c4b26d8fd5c55caa9: {fileID: 0}
 --- !u!4 &1404820659
 Transform:
   m_ObjectHideFlags: 0
